@@ -45,10 +45,8 @@
             this.btnSuppliers = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSalePoint = new Guna.UI2.WinForms.Guna2GradientButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
@@ -67,7 +65,7 @@
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.BorderRadius = 30;
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(283, 907);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(284, 866);
             this.guna2GradientPanel1.TabIndex = 1;
             // 
             // btnCustomers
@@ -83,10 +81,10 @@
             this.btnCustomers.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomers.Image")));
             this.btnCustomers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCustomers.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnCustomers.Location = new System.Drawing.Point(0, 557);
+            this.btnCustomers.Location = new System.Drawing.Point(0, 535);
             this.btnCustomers.Name = "btnCustomers";
             this.btnCustomers.ShadowDecoration.Parent = this.btnCustomers;
-            this.btnCustomers.Size = new System.Drawing.Size(283, 113);
+            this.btnCustomers.Size = new System.Drawing.Size(284, 112);
             this.btnCustomers.TabIndex = 3;
             this.btnCustomers.Text = "Customers";
             // 
@@ -126,12 +124,13 @@
             this.btnAccounts.Image = ((System.Drawing.Image)(resources.GetObject("btnAccounts.Image")));
             this.btnAccounts.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAccounts.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnAccounts.Location = new System.Drawing.Point(0, 277);
+            this.btnAccounts.Location = new System.Drawing.Point(0, 255);
             this.btnAccounts.Name = "btnAccounts";
             this.btnAccounts.ShadowDecoration.Parent = this.btnAccounts;
-            this.btnAccounts.Size = new System.Drawing.Size(283, 113);
+            this.btnAccounts.Size = new System.Drawing.Size(284, 112);
             this.btnAccounts.TabIndex = 3;
             this.btnAccounts.Text = "Accounts";
+            this.btnAccounts.Click += new System.EventHandler(this.btnAccounts_Click);
             // 
             // btnUtilltiles
             // 
@@ -146,10 +145,10 @@
             this.btnUtilltiles.Image = ((System.Drawing.Image)(resources.GetObject("btnUtilltiles.Image")));
             this.btnUtilltiles.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnUtilltiles.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnUtilltiles.Location = new System.Drawing.Point(0, 135);
+            this.btnUtilltiles.Location = new System.Drawing.Point(0, 114);
             this.btnUtilltiles.Name = "btnUtilltiles";
             this.btnUtilltiles.ShadowDecoration.Parent = this.btnUtilltiles;
-            this.btnUtilltiles.Size = new System.Drawing.Size(283, 113);
+            this.btnUtilltiles.Size = new System.Drawing.Size(284, 112);
             this.btnUtilltiles.TabIndex = 3;
             this.btnUtilltiles.Text = "Utillties";
             // 
@@ -166,10 +165,10 @@
             this.btnProducts.Image = ((System.Drawing.Image)(resources.GetObject("btnProducts.Image")));
             this.btnProducts.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnProducts.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnProducts.Location = new System.Drawing.Point(0, 414);
+            this.btnProducts.Location = new System.Drawing.Point(0, 392);
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.ShadowDecoration.Parent = this.btnProducts;
-            this.btnProducts.Size = new System.Drawing.Size(283, 113);
+            this.btnProducts.Size = new System.Drawing.Size(284, 112);
             this.btnProducts.TabIndex = 3;
             this.btnProducts.Text = "Products";
             // 
@@ -184,11 +183,11 @@
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.MediumPurple;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.MediumPurple;
             this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(1563, 0);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(1639, 0);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.BorderRadius = 30;
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(283, 907);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(284, 866);
             this.guna2GradientPanel2.TabIndex = 1;
             // 
             // btnClose
@@ -231,10 +230,10 @@
             this.guna2GradientButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton4.Image")));
             this.guna2GradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2GradientButton4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2GradientButton4.Location = new System.Drawing.Point(0, 557);
+            this.guna2GradientButton4.Location = new System.Drawing.Point(0, 535);
             this.guna2GradientButton4.Name = "guna2GradientButton4";
             this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Size = new System.Drawing.Size(283, 113);
+            this.guna2GradientButton4.Size = new System.Drawing.Size(284, 112);
             this.guna2GradientButton4.TabIndex = 3;
             this.guna2GradientButton4.Text = "Settings";
             // 
@@ -251,10 +250,10 @@
             this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
             this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnReports.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnReports.Location = new System.Drawing.Point(0, 414);
+            this.btnReports.Location = new System.Drawing.Point(0, 392);
             this.btnReports.Name = "btnReports";
             this.btnReports.ShadowDecoration.Parent = this.btnReports;
-            this.btnReports.Size = new System.Drawing.Size(283, 113);
+            this.btnReports.Size = new System.Drawing.Size(284, 112);
             this.btnReports.TabIndex = 3;
             this.btnReports.Text = "Reports";
             // 
@@ -271,10 +270,10 @@
             this.btnPurchase.Image = ((System.Drawing.Image)(resources.GetObject("btnPurchase.Image")));
             this.btnPurchase.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnPurchase.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnPurchase.Location = new System.Drawing.Point(0, 277);
+            this.btnPurchase.Location = new System.Drawing.Point(0, 255);
             this.btnPurchase.Name = "btnPurchase";
             this.btnPurchase.ShadowDecoration.Parent = this.btnPurchase;
-            this.btnPurchase.Size = new System.Drawing.Size(283, 113);
+            this.btnPurchase.Size = new System.Drawing.Size(284, 112);
             this.btnPurchase.TabIndex = 3;
             this.btnPurchase.Text = "Purchase";
             // 
@@ -291,10 +290,10 @@
             this.btnSuppliers.Image = ((System.Drawing.Image)(resources.GetObject("btnSuppliers.Image")));
             this.btnSuppliers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnSuppliers.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnSuppliers.Location = new System.Drawing.Point(0, 135);
+            this.btnSuppliers.Location = new System.Drawing.Point(0, 114);
             this.btnSuppliers.Name = "btnSuppliers";
             this.btnSuppliers.ShadowDecoration.Parent = this.btnSuppliers;
-            this.btnSuppliers.Size = new System.Drawing.Size(283, 113);
+            this.btnSuppliers.Size = new System.Drawing.Size(284, 112);
             this.btnSuppliers.TabIndex = 3;
             this.btnSuppliers.Text = "Suppliers";
             // 
@@ -311,41 +310,25 @@
             this.btnSalePoint.HoverState.Parent = this.btnSalePoint;
             this.btnSalePoint.Image = ((System.Drawing.Image)(resources.GetObject("btnSalePoint.Image")));
             this.btnSalePoint.ImageSize = new System.Drawing.Size(100, 100);
-            this.btnSalePoint.Location = new System.Drawing.Point(564, 135);
+            this.btnSalePoint.Location = new System.Drawing.Point(622, 114);
             this.btnSalePoint.Name = "btnSalePoint";
             this.btnSalePoint.ShadowDecoration.Parent = this.btnSalePoint;
-            this.btnSalePoint.Size = new System.Drawing.Size(683, 535);
+            this.btnSalePoint.Size = new System.Drawing.Size(682, 535);
             this.btnSalePoint.TabIndex = 3;
             this.btnSalePoint.Text = "Sale Point";
+            this.btnSalePoint.Click += new System.EventHandler(this.btnSalePoint_Click);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox1.BorderRadius = 30;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Blue;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(342, 3);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(323, 335);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 4;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1846, 907);
-            this.Controls.Add(this.guna2PictureBox1);
+            this.ClientSize = new System.Drawing.Size(1923, 866);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.btnSalePoint);
             this.Controls.Add(this.guna2GradientPanel1);
@@ -357,7 +340,6 @@
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -379,6 +361,5 @@
         private System.Windows.Forms.Label lblDateTime;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

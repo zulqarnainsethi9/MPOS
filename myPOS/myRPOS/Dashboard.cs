@@ -34,5 +34,17 @@ namespace myRPOS
         {
             lblDateTime.Text = DateTime.Now.ToLongTimeString();
         }
+
+        private void btnAccounts_Click(object sender, EventArgs e)
+        {
+            Accounts ac = new Accounts();
+            ac.Show();
+        }
+
+        private void btnSalePoint_Click(object sender, EventArgs e)
+        {
+            PointOfSale pos=new PointOfSale();
+            pos.Show();
+        }
     }
 }
