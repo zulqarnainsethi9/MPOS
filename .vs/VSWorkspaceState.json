@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\myPOS"
   ],
-  "SelectedNode": "\\D:\\MPOS",
+  "SelectedNode": "\\myPOS\\myPOS.sln",
   "PreviewInSolutionExplorer": false
 }
