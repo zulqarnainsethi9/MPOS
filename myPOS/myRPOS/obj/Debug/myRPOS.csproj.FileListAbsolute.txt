@@ -26,3 +26,17 @@ D:\myPOS\myRPOS\obj\Debug\myRPOS.csproj.CoreCompileInputs.cache
 D:\myPOS\myRPOS\obj\Debug\myRPOS.csproj.CopyComplete
 D:\myPOS\myRPOS\obj\Debug\myRPOS.exe
 D:\myPOS\myRPOS\obj\Debug\myRPOS.pdb
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\bin\Debug\myRPOS.exe.config
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\bin\Debug\myRPOS.exe
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\bin\Debug\myRPOS.pdb
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\bin\Debug\Guna.UI2.dll
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.csproj.AssemblyReference.cache
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.Dashboard.resources
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.Login.resources
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.Properties.Resources.resources
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.csproj.GenerateResource.cache
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.csproj.CopyComplete
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.exe
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.pdb
