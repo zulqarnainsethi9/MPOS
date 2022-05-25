@@ -40,3 +40,4 @@ C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Deb
 C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.csproj.CopyComplete
 C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.exe
 C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.pdb
+C:\Users\Abdullah Laptop\Source\Repos\zulqarnainsethi9\MPOS\myPOS\myRPOS\obj\Debug\myRPOS.Accounts.resources
